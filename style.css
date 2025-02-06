@@ -1,0 +1,25 @@
+#pass {
+    border-radius: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    color: black;
+    border-style: double;
+    border-color: black;
+}
+
+.mensaje-error {
+    color: red;
+    font-weight: bold;
+}
+
+.mensaje-normal {
+    color: yellow;
+    font-weight: bold;
+}
+
+.mensaje-segura {
+    color: green;
+    font-weight: bold;
+}
