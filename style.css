@@ -1,25 +1,98 @@
-#pass {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pading1015: 10px 15px 10px 15px;
+    --marging1015: 10px 15px 10px 15px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+
+    border: 1px solid;
+    border-radius: 10px;
+    padding: var(--pading1015);
+}
+
+#usuario{
     border-radius: 25px;
     font-size: 20px;
-    margin-left: 50px;
-    margin-top: 50px;
-    padding: 10px;
+    margin: var(--marging1015);
+    padding: var(--pading1015);
     color: black;
     border-style: double;
     border-color: black;
 }
 
-.mensaje-error {
+#pass {
+    border-radius: 25px;
+    font-size: 20px;
+    margin: var(--marging1015);
+    padding: var(--pading1015);
+    color: black;
+    border-style: double;
+    border-color: black;
+}
+
+#contrasenya-insegura {
     color: red;
-    padding-left: 95px;
+    padding-right: 60px;
 }
 
-.mensaje-normal {
+#contrasenya-media {
     color: orange;
-    padding-left: 70px;
+    padding-right: 40px;
 }
 
-.mensaje-seguro {
+#contrasenya-segura {
     color: green;
-    padding-left: 95px;
+    padding-right: 20px;
+}
+
+#contrasenya-insegura, #contrasenya-media, #contrasenya-segura{
+    width: 100%;
+
+    padding: var(--pading1015);
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.login{
+    width: 88%;
+    padding: var(--pading1015);
+
+    border: 1px solid;
+    border-radius: 20px;
+
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.disabled{
+    background: rgba(78, 78, 78, 0.267);
+    color: #fff;
+}
+
+.enabled{
+    background: #6a64e1e4;
+    color: #fff;
+    cursor: pointer;
 }

@@ -4,13 +4,20 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ingrese La Contraseña</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <input type="password" id="pass" placeholder="Ingrese su contraseña" />
-        <p id="contraseña-insegura"></p>
-        <p id="contraseña-media"></p>
-        <p id="contraseña-segura"></p>
+        <main>
+            <input type="text" name="" id="usuario">
+            <input type="password" id="pass" placeholder="Ingrese su contraseña" />
+            <p id="contrasenya-insegura" hidden></p>
+            <p id="contrasenya-media" hidden></p>
+            <p id="contrasenya-segura" hidden></p>
+            <button id="btn" class="login disabled" >Login</button>
+        </main>
+
+        <script src="./alertaUsuario.js"></script>
+        <script src="./una_vez.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
