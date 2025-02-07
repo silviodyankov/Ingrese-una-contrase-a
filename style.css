@@ -1,6 +1,6 @@
 #pass {
     border-radius: 25px;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 50px;
     margin-top: 50px;
     padding: 10px;
@@ -11,15 +11,15 @@
 
 .mensaje-error {
     color: red;
-    font-weight: bold;
+    padding-left: 95px;
 }
 
 .mensaje-normal {
-    color: yellow;
-    font-weight: bold;
+    color: orange;
+    padding-left: 70px;
 }
 
-.mensaje-segura {
+.mensaje-seguro {
     color: green;
-    font-weight: bold;
+    padding-left: 95px;
 }
